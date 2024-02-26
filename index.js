@@ -12,8 +12,10 @@ const client = new Client({
     allowedMentions: { parse: ['users', 'roles'], repliedUser: true },
 });
 
+client.logger = require('./utils/logger');
+
 client.once('ready', () => {
-    console.log(`[INFO] Logged in as ${client.user.tag}`);
+    client.logger.info('EVENT', `Logged in as ${client.user.tag}`);
 });
 
 client.login(process.env.TOKEN);

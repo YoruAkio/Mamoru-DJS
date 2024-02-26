@@ -27,6 +27,7 @@
   "homepage": "https://github.com/YoruAkio/Mamoru-DJS#readme",
   "dependencies": {
     "discord.js": "^14.14.1",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "log4js": "^6.9.1"
   }
 }
