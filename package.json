@@ -1,0 +1,32 @@
+{
+  "name": "mamoru-djs",
+  "version": "0.0.1",
+  "description": "A work-in-progress Discord bot with a growing feature set. Currently includes: server management, image manipulation, economy system, music player.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoruAkio/Mamoru-DJS.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "nodejs",
+    "discord",
+    "discord.js",
+    "economy",
+    "moderation"
+  ],
+  "author": "YoruAkio <yoruakio@proton.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YoruAkio/Mamoru-DJS/issues"
+  },
+  "homepage": "https://github.com/YoruAkio/Mamoru-DJS#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  }
+}
